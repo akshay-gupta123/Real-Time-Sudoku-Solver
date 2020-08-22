@@ -22,7 +22,7 @@ y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 num_classes = y_test.shape[1]
 # define the larger model
-def larger_model():
+def dl_model():
 	# create model
 	model = Sequential()
 	model.add(Conv2D(30, (5, 5), input_shape=(28, 28, 1), activation='relu'))
@@ -42,7 +42,7 @@ def larger_model():
 cp_1 = ModelCheckpoint('best_model_accuracy.model', monitor = 'val_accuracy', mode = 'max',
                      save_best_only = True, verbose = 1)
 # build the model
-model = larger_model()
+model = dl_model()
 # Fit the model
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=15, batch_size=200,callbacks=[cp_1,cp_2])
 # Final evaluation of the model
