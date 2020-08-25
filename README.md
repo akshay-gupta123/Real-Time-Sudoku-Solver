@@ -17,8 +17,7 @@ $ python3 solver.py
 
 ## sudoku.py
 
-This file contain the famous sudoku solving algorithm [<strong>Solving Every Sudoku Puzzle</strong>](https://norvig.com/sudoku.html)<br>
-This [<strong>Link</strong>](https://medium.com/activating-robotic-minds/peter-norvigs-sudoku-solver-25779bb349ce) helps me to understand the algorithm.
+This file contain the famous sudoku solving algorithm <strong>Solving Every Sudoku Puzzle</strong><br>
 
 ## model.py
 
