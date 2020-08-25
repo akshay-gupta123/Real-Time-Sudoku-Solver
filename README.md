@@ -1,10 +1,9 @@
 # Real-Time-Sudoku-Solver
 
-A linkedin post inspired me to make this. This project also helps me using my time wisufully.
 
 ## Usage
 
-After cloning this repository, create a virtual environment and install all the packages required to run TEDFinder.
+After cloning this repository, create a virtual environment and install all the packages required to run Sudoku-Solver.
 
 ```console
 $ python3 -m venv venv
